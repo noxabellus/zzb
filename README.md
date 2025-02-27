@@ -14,13 +14,11 @@ programmatic API to cut holes for those. If things end up getting really
 complicated, you can phase it out and contend with very minimal,
 straight-forward criteria for backwards compatibility.
 
-## Documentation
+## Usage
 
 Zig doc available at [noxabell.us/zzb](https://noxabell.us/zzb).
 
 You can also generate it with `zig build-lib -femit-docs -fno-emit-bin src/zzb.zig`.
-
-## Usage
 
 Once setup, a set of build steps are made available:
 ```sh
