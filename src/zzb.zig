@@ -1,19 +1,3 @@
-//! # zzb
-//!
-//! Zig Zon Builder is a simple utility that parses your `build.zig.zon` file, then
-//! creates build steps and exports for you. It is designed to grow with your
-//! project and therefore also provides a programmatic API.
-//!
-//! The purely declarative style of build is convenient for projects that have
-//! relatively straight forward build workflows, in terms of meta-actions that need
-//! to be performed, independent of project size. Projects where the overhead of
-//! manually specifying everything imperatively is not necessary, but the loss of
-//! path traceability with file-system scanning alternatives is undesirable. If
-//! complications (inevitably?) creep in, you can easily transition to the
-//! programmatic API to cut holes for those. If things end up getting really
-//! complicated, you can phase it out and contend with very minimal,
-//! straight-forward criteria for backwards compatibility.
-
 const Builder = @This();
 
 const std = @import("std");

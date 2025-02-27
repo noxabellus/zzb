@@ -16,9 +16,9 @@ straight-forward criteria for backwards compatibility.
 
 ## Documentation
 
-Zig doc available at [noxabell.us/zzb](http://noxabell.us/zzb).
+Zig doc available at [noxabell.us/zzb](https://noxabell.us/zzb).
 
-You can also generate it with `zig build-lib -femit-docs fno-emit-bin src/zzb.zig`.
+You can also generate it with `zig build-lib -femit-docs -fno-emit-bin src/zzb.zig`.
 
 ## Usage
 
